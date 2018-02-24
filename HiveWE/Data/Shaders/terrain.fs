@@ -1,7 +1,7 @@
-#version 330 core
+#version 330
+#extension GL_ARB_separate_shader_objects : enable
 #extension GL_ARB_explicit_uniform_location : enable
 #extension GL_ARB_shading_language_420pack : enable
-
 
 layout (location = 2) uniform bool show_pathing_map_static;
 //layout (location = 3) uniform bool show_pathing_map_dynamic;

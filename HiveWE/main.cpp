@@ -17,5 +17,5 @@ int main(int argc, char *argv[]) {
 
 	HiveWE w;
 	w.show();
-	return a.exec();
+	return QApplication::exec();
 }
