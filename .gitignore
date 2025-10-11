@@ -1,4 +1,8 @@
 .vs
+.idea
+.vscode
 *.j
 backups
+build
 logs
+vc140.pdb
